@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharpNewFeatures.Structs
 {
@@ -19,9 +15,11 @@ namespace CSharpNewFeatures.Structs
         static void Test()
         {
             var p1 = default(Point);
-            Console.WriteLine("(\{p1.X}, \{p1.Y}"); // (0, 0)
+            // Console.WriteLine("(\{p1.X}, \{p1.Y}"); // (0, 0)       // Visual Studio 2015 Preview
+            Console.WriteLine($"({p1.X}, {p1.Y}"); // (0, 0)       // Visual Studio 2015 CTP 5
             var p2 = new Point();
-            Console.WriteLine("(\{p2.X}, \{p2.Y}"); // (1, 1)
+            // Console.WriteLine("(\{p2.X}, \{p2.Y}"); // (1, 1)       // Visual Studio 2015 Preview
+            Console.WriteLine($"({p2.X}, {p2.Y}"); // (1, 1)       // Visual Studio 2015 CTP 5
         }
     }
 }
