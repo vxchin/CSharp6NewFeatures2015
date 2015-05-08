@@ -5,7 +5,7 @@ CSharpNewFeatures
 
 *（2015/05/08 更新：代码现在基于 Visual Studio 2015 RC 中的语法，不出意外的话，将会和最终版本相同。）*
 
-<del>*（2015/02/08 更新：代码现在基于 Visual Studio 2015 CTP 5 中的语法）*</del>
+*<del>（2015/02/08 更新：代码现在基于 Visual Studio 2015 CTP 5 中的语法）</del>*
 
 CSharpNewFeatures / CSharpNewFeatures.Legacy
 --------------------------------------------
@@ -30,7 +30,7 @@ CSharpNewFeatures.Structs
 
 对于在 Visual Studio 2015 Preview / CTP 5 / RC 下不同的语法，注释中均有说明。
 
-**注 1：各个预览版的时间顺序为：Preview < CTP 5 < RC**
+**注 1：各个预览版发布的时间顺序为：Preview < CTP 5 < RC**
 
 **注 2：CTP 仅有英文版本，Preview 和 RC 有简体中文版。**
 
