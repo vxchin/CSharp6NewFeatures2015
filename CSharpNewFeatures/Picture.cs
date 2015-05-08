@@ -11,7 +11,8 @@ namespace CSharpNewFeatures
             {
                 await DoSomethingAsync();
             }
-            catch (ConfigurationException ex) if (ex.IsSevere)
+            // catch (ConfigurationException ex) if (ex.IsSevere) // Visual Studio 2015 Preview / CTPs
+            catch (ConfigurationException ex) when (ex.IsSevere)  // Visual Studio 2015 RC
             {
                 await LogAsync(ex);
             }

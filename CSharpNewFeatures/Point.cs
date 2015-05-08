@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 // using System.Math;               // Visual Studio 2015 Preview
-using static System.Math;           // Visual Studio 2015 CTP 5
+using static System.Math;           // Visual Studio 2015 RC / CTP 5
 
 namespace CSharpNewFeatures
 {

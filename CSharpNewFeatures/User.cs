@@ -17,13 +17,10 @@ namespace CSharpNewFeatures
         public decimal Salary { get; set; }
 
         // public string SalaryText => "\{Salary : C}";                     // Visual Studio 2015 Preview
-        public string SalaryText => $"{Salary : C}";                        // Visual Studio 2015 CTP 5
+        public string SalaryText => $"{Salary : C}";                        // Visual Studio 2015 RC / CTP 5
 
         // public override string ToString() => "Id: \{Id} Name: \{Name}";     // Visual Studio 2015 Preview
-        public override string ToString() => $"Id: {Id} Name: {Name}";     // Visual Studio 2015 CTP 5
-
-        // VS 2015 正式版将会引入 $"" 语法：
-        // public override string ToString() => $"Id: {Id} Name: {Name}"; 
+        public override string ToString() => $"Id: {Id} Name: {Name}";     // Visual Studio 2015 RC / CTP 5
 
         private bool _isEnabled = true;
 
